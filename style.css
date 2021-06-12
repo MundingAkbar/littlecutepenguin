@@ -13,7 +13,7 @@ body{
     overflow: hidden;
 }
 .container{
-    margin-top: 20px;
+    padding-top: 10vh;
     width: 100vw;
     height: 100vh;
 
@@ -21,10 +21,21 @@ body{
     flex-direction: column;
     color: white;
     align-items: center;
+    justify-content: flex-start;
+    overflow-y: hidden;
+}
+#logo{
+    width: 350px;
+    height: 350px;
 }
 h3{
     width: 500px;
     text-align: center;
+}
+@media (max-width:700px){
+    .container{
+        height: 100vh;
+    }
 }
 
 
