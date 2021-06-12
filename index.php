@@ -12,14 +12,14 @@
 <body>
     <div class="container">
         <h1>Coming soon...</h1>
-        <h3 id="maintenance">Website Under Development</h3>
+        <h3 id="maintenance"></h3>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
     <script>
              new TypeIt("#maintenance", {
+                strings: 'Website Under Development',
                 speed: 80,
                 loop: true,
-                waitUntilVisible: true
             }).go();
     </script>
 </body>
